@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{922C7AA5-F1A5-4F10-ABFA-1376B2F4D59D}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{922AD4D4-AE64-46D4-8DBD-F8B70EA84769}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,28 +27,13 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA90ozqJK07UW6D6Mn89xUggAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADGhWSTPOvJ4DbVmDtioh0Dfq4djqY8JnxyTltzEvNJcgAAAAAOgAAAAAIAACAAAACjohACDyLwzUuftbG5s0tALjhWignSz/yC2eXCHLX1eiAAAABhCH+P4xoQHigU0N6A2YfqPQEFpOXcUuUCyTz9ru61UEAAAACrHDtcCCT7RCmEv6/9IOQd3S/lJloqMMvCuvuE5N9z12kOTFV1doeBgwGym4UEk8UgJVXpwP/SS1paTazwimXf</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA90ozqJK07UW6D6Mn89xUggAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACcMgNn0f1CBABs4BUwLtkfCrMZK8v/4jCVCsNqcMSXYQAAAAAOgAAAAAIAACAAAAA2O8IoX3/D058fwLf0wy8qxc/Mfcaumrfq1Jl15c4bzyAAAACo4uDlpeUmoufwthOvgP1JMoLCnQ3S1IBqHWxCZqrwJkAAAADCf9NLSBko/06F3GIxx79V68U3cFVsP6rsFsm756ac7dT29S8iwjZbChcvea9G1+ihCaZmSHCwJG4iGVMRAhzz</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:Variables />
-  <DTS:Executables>
-    <DTS:Executable
-      DTS:refId="Package\Data Flow Task"
-      DTS:CreationName="Microsoft.Pipeline"
-      DTS:Description="Data Flow Task"
-      DTS:DTSID="{1959A9FA-7660-4BDD-A308-050A1F281255}"
-      DTS:ExecutableType="Microsoft.Pipeline"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Data Flow Task">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <pipeline
-          version="1" />
-      </DTS:ObjectData>
-    </DTS:Executable>
-  </DTS:Executables>
+  <DTS:Executables />
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
 <!--If you manually edit this section and make a mistake, you can delete it. -->
@@ -56,17 +41,5 @@
 <Objects
   Version="8">
   <!--Each node below will contain properties that do not affect runtime behavior.-->
-  <Package
-    design-time-name="Package">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\Data Flow Task"
-          TopLeft="5.5,5.5" />
-      </GraphLayout>
-    </LayoutInfo>
-  </Package>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
