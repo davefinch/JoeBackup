@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "JoeBackup", "JoeBackup\JoeBackup.dtproj", "{065BAC21-3C5D-40BA-8832-6884D30011EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{065BAC21-3C5D-40BA-8832-6884D30011EA}.Development|Default.ActiveCfg = Development
+		{065BAC21-3C5D-40BA-8832-6884D30011EA}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6622D255-AB86-41F9-94C5-9A3887F6B2C9}
+	EndGlobalSection
+EndGlobal
